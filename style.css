@@ -1,0 +1,132 @@
+/* Mobile first design using Infinix smart 5 as a case study. Coding done on mobile phone with the Acode code editor.*/
+
+* {
+  border: 0;
+  margin: 0;
+  box-sizing: border-box;
+}
+
+body {
+  background: hsl(217, 54%, 11%);
+}
+
+.card {
+  border: 1px solid black;
+  width: 80%;
+  height: 70%;
+  padding: 15px;
+  border-radius: 15px;
+  position: absolute;
+  right: 10%;
+  top: 15%;
+  background: hsl(216, 50%, 16%);
+}
+
+.nft-img-section {
+  width: 100%;
+  height: 60%;
+  border-radius: 15px;
+  background-image: url('/images/image-equilibrium.jpg');
+  background-size: cover;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.nft-title {
+  color: hsl(0, 0%, 100%);
+}
+
+.nft-desc {
+  color: hsl(0, 0%, 80%);
+}
+
+.listing-value {
+  color: hsl(178, 100%, 50%);
+}
+
+.listing-duration {
+  color: hsl(215, 51%, 70%);
+}
+
+.creator-img {
+  width: 30px;
+  height: 30px;
+  border: 2px solid hsl(0, 0%, 100%);
+  border-radius: 50%;
+  margin-right: 10px;
+}
+
+.highlight {
+  color: hsl(178, 51%, 50%);
+}
+
+.nft-title, .nft-desc, .nft-listing-info {
+  margin: 15px 0px;
+}
+
+.nft-creator {
+  color: hsl(0, 0%, 100%);
+  margin: 15px 0px;
+}
+
+.nft-creator {
+  display: flex;
+  align-items: center;
+}
+
+.nft-listing-info {
+  display: flex;
+  justify-content: space-between;
+}
+
+.hr {
+  width: 90%;
+  margin: 5%;
+  height: 2px;
+  background-color: hsl(0, 0%, 100%);
+}
+
+p {
+  font-size: 18px;
+}
+
+.view-icon-img {
+  visibility: hidden;
+}
+
+.attribution {
+  position: absolute;
+  bottom: 5%;
+  left: 10%;
+  color: hsl(0, 0%, 80%);
+}
+
+.attribution a {
+  text-decoration: none;
+  color: hsl(178, 100%, 50%);
+}
+
+/* hover states */
+
+.nft-title:hover {
+  color: hsl(178, 100%, 50%);
+}
+
+.nft-img-section:hover {
+  width: 100%;
+  height: 60%;
+  border-radius: 15px;
+  background-image: url('/images/image-equilibrium.jpg');
+  background-size: cover; 
+  background-color: hsl(178, 100%, 50%);
+  background-blend-mode: saturation;
+}
+
+.nft-img-section:hover img{
+  display: block;
+  visibility: visible;
+  width: 100%;
+  height: 100%;
+  padding: 45% 43%;
+}
